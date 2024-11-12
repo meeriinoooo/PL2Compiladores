@@ -6,6 +6,7 @@ import java.nio.file.Paths;
 
 public class Main {
     public static void main(String[] args) throws Exception {
+        
         // Leer el archivo de entrada
         CharStream input = CharStreams.fromFileName("mapa.field");
         

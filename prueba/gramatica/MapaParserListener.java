@@ -1,4 +1,4 @@
-// Generated from c:/Users/Karimlk/Desktop/prueba/gramatica/MapaParser.g4 by ANTLR 4.13.1
+// Generated from c:/Users/Karimlk/Desktop/prueba 2/gramatica/MapaParser.g4 by ANTLR 4.13.1
 import org.antlr.v4.runtime.tree.ParseTreeListener;
 
 /**
@@ -36,6 +36,16 @@ public interface MapaParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitPosicionInfo(MapaParser.PosicionInfoContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link MapaParser#criaturaInfo}.
+	 * @param ctx the parse tree
+	 */
+	void enterCriaturaInfo(MapaParser.CriaturaInfoContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link MapaParser#criaturaInfo}.
+	 * @param ctx the parse tree
+	 */
+	void exitCriaturaInfo(MapaParser.CriaturaInfoContext ctx);
 	/**
 	 * Enter a parse tree produced by {@link MapaParser#peligroInfo}.
 	 * @param ctx the parse tree
